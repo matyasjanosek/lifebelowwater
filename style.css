@@ -1,0 +1,22 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(700px);
+        opacity: 1;
+    }
+    25% {
+        transform: translateY(-100px);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(700px);
+        opacity: 1;
+    }
+}
+
+.animate {
+    animation: moveUpDown 25s ease-in-out infinite;
+}
